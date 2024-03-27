@@ -29,11 +29,11 @@ function App() {
     console.log("Location ",window.location)
     console.log("window.location.href ",window.location.href)
 
-    var url = window.location.href.split("5176")
+    var url = window.location.href.split("5180")
     console.log("URL ",url)
 
     if(url[1] != "/signin"){
-      window.location.href = "http://51.21.131.138:5180/signin" //'http://rummylegit.com:5176/signin';//
+      window.location.href = "http://51.21.131.138:5180/signin" //'http://rummylegit.com:5180/signin';//
       
       return false
     }

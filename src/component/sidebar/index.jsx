@@ -611,24 +611,7 @@ function Sidebar({ handleActive }) {
                           Point Table Entry
                         </Link>
                       </li>
-                      <li>
-                        <Link
-                          to="/TableEntry?gametype=dealrummy"
-                          className={`text-md inline-block py-1.5 font-medium text-bgray-600 transition-all hover:text-bgray-800 dark:text-bgray-50 hover:dark:text-success-300 ${location === "/home-3" ? "nav-active" : ""
-                            }`}
-                        >
-                          Deal Table Entry
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          to="/TableEntry?gametype=poolrummy"
-                          className={`text-md inline-block py-1.5 font-medium text-bgray-600 transition-all hover:text-bgray-800 dark:text-bgray-50 hover:dark:text-success-300 ${location === "/home-3" ? "nav-active" : ""
-                            }`}
-                        >
-                          Pool Table Entry
-                        </Link>
-                      </li>
+                     
                     </ul>
                   </li>
                 </ul>
