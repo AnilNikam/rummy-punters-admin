@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Urbanist:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.switch-btn {
+  @apply bg-bgray-300;
+}
+.switch-btn.active {
+  @apply bg-success-300;
+}
+.switch-btn span {
+  @apply translate-x-0;
+}
+.switch-btn.active span {
+  @apply translate-x-[23px];
+}
+
+
+/* custom tabs */
+ul.custom-tabs-header.nav.nav-tabs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+ul.custom-tabs-header.nav.nav-tabs li {
+  color: white;
+  padding: 0.5rem 1.5rem;
+  background: #555555;
+}
+
+.custom-tabs-wrapper .tab-content {
+  color: #fff;
+  padding: 1rem 0;
+  border-top: 0;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
