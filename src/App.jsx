@@ -33,7 +33,7 @@ function App() {
     console.log("URL ",url)
 
     if(url[1] != "/signin"){
-      window.location.href = 'http://51.21.131.138:5180/signin';//"http://192.168.0.203:5180/signin" //
+      window.location.href = 'http://rummypunters.com:5180/signin';//"http://192.168.0.203:5180/signin" //
       
       return false
     }
